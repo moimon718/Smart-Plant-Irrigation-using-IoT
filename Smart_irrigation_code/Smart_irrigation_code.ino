@@ -12,11 +12,11 @@ unsigned long lastWeatherCheck = 0;
 const unsigned long WEATHER_INTERVAL = 2 * 60 * 60 * 1000; // 2 hours
 bool rainPredicted = false;
 bool rainConfirmed = false;
-String weatherApiKey = "571089fbd29c57b0f2adfcf0c97f901a";//ENTER API KEY AGAIN OF WEATHER APP
+//ENTER API KEY AGAIN OF WEATHER APP
 String city = "Kolkata";// HOOGLY HOLE HOOGLY, SITE E SELECT KORTE HOBE
-const char* ssid = "XYZ"; //SEPARATE DONT INTERFARE
-const char* password = "12345678"; 
-//const char* pass = "12345678"; 
+const char* ssid = ""; //SEPARATE DONT INTERFARE
+const char* password = ""; 
+//const char* pass = ""; 
 unsigned long lastLoopTime = 0;
 const unsigned long LOOP_INTERVAL = 10000; // 10 seconds
 #define BLYNK_TEMPLATE_ID "TMPL3pzSYueE5" 
